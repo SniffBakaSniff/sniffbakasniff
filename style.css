@@ -365,3 +365,29 @@ input[type="checkbox"]{
 p {
     margin-bottom: 15px;
   }
+  
+/*experiminting sith phone support*/
+
+/* For screens wider than 768px */
+@media (min-width: 768px) {
+  .wrapper {
+    width: 20%;
+    height: 50%;
+  }
+}
+
+/* For screens between 600px and 768px wide */
+@media (max-width: 767px) and (min-width: 600px) {
+  .wrapper {
+    width: 30%;
+    height: 60%;
+  }
+}
+
+/* For screens smaller than 600px wide */
+@media (max-width: 599px) {
+  .wrapper {
+    width: 40%;
+    height: 70%;
+  }
+}
