@@ -368,29 +368,30 @@ p {
   
 /*experiminting with phone support*/
 
-/* For screens wider than 768px */
 @media (min-width: 768px) {
   .wrapper {
-    background:rgba(0,0,0,0.25);
+    background: rgba(0, 0, 0, 0.25);
     width: 40%;
     height: 70%;
+    text-align: center;
   }
 }
 
-/* For screens between 600px and 768px wide */
 @media (max-width: 767px) and (min-width: 600px) {
   .wrapper {
-    background:rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     width: 40%;
     height: 70%;
+    text-align: center; 
   }
 }
 
-/* For screens smaller than 600px wide */
 @media (max-width: 599px) {
   .wrapper {
-    background:rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     width: 40%;
     height: 70%;
+    text-align: center;
   }
 }
+
