@@ -46,6 +46,7 @@ body {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   background: aqua;
+
 }
 
 .menu-btn span,
@@ -58,6 +59,7 @@ body {
 	width: 40%;
 	border-bottom: 2px solid #000;
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+
 
 }
 
@@ -127,7 +129,6 @@ body {
 .wrapper ul li a:after{
   position: absolute;
   content: "";
-  background: #fff;
   width: 100%;
   height: 100%;
   left: 0;
@@ -136,6 +137,7 @@ body {
   transform: scaleY(0);
   z-index: -1;
   transition: transform 0.3s ease;
+  background: linear-gradient(to right, aqua, #3a68fa, #3a68fa, #3a68fa, aqua);
 }
 
 .wrapper ul li a:hover:after{
@@ -143,7 +145,7 @@ body {
 }
 
 .wrapper ul li a:hover{
-  color: #1a73e8;
+  color: #000000;
 }
 
 input[type="checkbox"]{
@@ -168,6 +170,7 @@ input[type="checkbox"]{
 
 #active:checked ~ .wrapper ul li a{
   opacity: 1;
+
 }
 
 .wrapper ul li a{
@@ -181,6 +184,7 @@ input[type="checkbox"]{
   transition-timing-function: ease, cubic-bezier(.1,1.3,.3,1);
   transition-delay: .6s;
   transform: translateX(-100px);
+
 }
 
 /* Burger stuff Above */
@@ -225,6 +229,137 @@ input[type="checkbox"]{
   border-radius: 50px;
   border: 2px solid #7DF9FF;
   font-size: 30px;
+}
+
+.links{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 160px);
+    gap: 20px;
+    padding: 25px;
+    justify-content: center;
+}
+
+.buttons-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+.contacts-buttons {
+        width: 160px;
+        height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 25px;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+.youtube-button {
+    background-color: #ff0000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 160px;
+    height: 160px;
+}
+
+.github-button {
+    background: linear-gradient(to bottom left, #3a68fa, #d92dff);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 160px;
+    height: 160px;
+}
+
+.curseforge-button {
+    background: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 160px;
+    height: 160px;
+}
+
+.tiktok-button {
+    background: linear-gradient(to bottom left, #31edec, #fe335a);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 160px;
+    height: 160px;
+}
+
+.discord-button {
+    background-color: #5662f6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 160px;
+    height: 160px;
+}
+
+.modrinth-button {
+    background-color: #1bd96a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 160px;
+    height: 160px;
+}
+
+.gmail-button {
+    background: #dd4b39;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 160px;
+    height: 160px;
+}
+
+.mods{
+    width: 400px;
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+    padding: 100px;
+}
+
+.mods a {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 1s;
+}
+
+.mods a:hover{
+    transition: transform 0.75s;
+    transform: translateY(-50px);
+}
+
+
+.mods img {
+    width: 300px;
+    height: auto;
+}
+
+.img-wrapper {
+    background-color: #323232;
+    border-radius: 15px;
+    padding: 30px; /* Adjust padding as needed */
+}
+
+.text {
+    font-size: 24px;
 }
 
 p {
