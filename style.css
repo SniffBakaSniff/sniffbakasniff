@@ -371,9 +371,9 @@ p {
 /* For screens wider than 768px */
 @media (min-width: 768px) {
   .wrapper {
-    background:rgba(0,0,0,0.5);
-    width: 20%;
-    height: 50%;
+    background:rgba(0,0,0,0.25);
+    width: 40%;
+    height: 70%;
   }
 }
 
@@ -381,8 +381,8 @@ p {
 @media (max-width: 767px) and (min-width: 600px) {
   .wrapper {
     background:rgba(0,0,0,0.5);
-    width: 30%;
-    height: 60%;
+    width: 40%;
+    height: 70%;
   }
 }
 
