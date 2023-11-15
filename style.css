@@ -111,7 +111,7 @@ body {
 }
 
 .wrapper ul li a {
-  pointer-events: none;
+  pointer-events: auto;
   display: inline-block;
   text-decoration: none;
   font-size: 40px;
