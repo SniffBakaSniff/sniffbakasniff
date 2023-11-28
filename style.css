@@ -234,15 +234,19 @@ input[type="checkbox"]{
 .links{
     display: grid;
     grid-template-columns: repeat(auto-fit, 160px);
-    gap: 20px;
-    padding: 25px;
+    gap: 50px;
+    padding: 45px;
     justify-content: center;
+
 }
 
 .buttons-container {
-            display: flex;
-            justify-content: space-around;
-            margin: 20px;
+            display: grid;
+            gap: 1rem;
+            justify-content: center;
+            padding: 100px;
+            transition: transform 1s;
+
         }
 
 .contacts-buttons {
@@ -255,7 +259,17 @@ input[type="checkbox"]{
         border-radius: 25px;
         margin: 10px;
         cursor: pointer;
-    }
+    transition: transform 1s;
+}
+
+.contacts-buttons:hover {
+    transform: translateY(-50px);
+}
+
+.github-button a:hover{
+    transition: transform 0.75s;
+    transform: translateY(-50px);
+}
 
 .youtube-button {
     background-color: #ff0000;
@@ -265,6 +279,12 @@ input[type="checkbox"]{
     cursor: pointer;
     width: 160px;
     height: 160px;
+    transition: transform 1s;
+}
+
+.youtube-button a:hover{
+    transition: transform 0.75s;
+    transform: translateY(-50px);
 }
 
 .github-button {
@@ -275,6 +295,7 @@ input[type="checkbox"]{
     cursor: pointer;
     width: 160px;
     height: 160px;
+    transition: transform 1s;
 }
 
 .curseforge-button {
@@ -285,6 +306,7 @@ input[type="checkbox"]{
     cursor: pointer;
     width: 160px;
     height: 160px;
+    transition: transform 1s;
 }
 
 .tiktok-button {
@@ -295,6 +317,7 @@ input[type="checkbox"]{
     cursor: pointer;
     width: 160px;
     height: 160px;
+    transition: transform 1s;
 }
 
 .discord-button {
@@ -305,6 +328,7 @@ input[type="checkbox"]{
     cursor: pointer;
     width: 160px;
     height: 160px;
+    transition: transform 1s;
 }
 
 .modrinth-button {
@@ -315,6 +339,7 @@ input[type="checkbox"]{
     cursor: pointer;
     width: 160px;
     height: 160px;
+    transition: transform 1s;
 }
 
 .gmail-button {
@@ -325,6 +350,8 @@ input[type="checkbox"]{
     cursor: pointer;
     width: 160px;
     height: 160px;
+    transition: transform 1s;
+
 }
 
 .mods{
