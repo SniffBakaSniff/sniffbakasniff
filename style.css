@@ -392,10 +392,10 @@ input[type="checkbox"]{
 p {
     margin-bottom: 15px;
   }
-  
+
 /*experiminting with phone support*/
 
-@media (min-width: 768px) {
+@media (max-width: 1280px) and (min-width: 768px) {
   .wrapper {
     background: rgba(0, 0, 0, 0.25);
     width: 60%;
@@ -409,7 +409,7 @@ p {
     background: rgba(0, 0, 0, 0.5);
     width: 60%;
     height: 70%;
-    text-align: center; 
+    text-align: center;
   }
 }
 
